@@ -19,7 +19,7 @@
     "uuidv4": "^6.2.13"
   },
   "scripts": {
-    "start": "dotenv -e .env react-scripts start --port 5236",
+    "start": "dotenv -e .env react-scripts start --port 4048",
     "build": "dotenv -e .env react-scripts build",
     "test": "dotenv -e .env react-scripts test",
     "eject": "react-scripts eject",
