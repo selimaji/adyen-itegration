@@ -42,7 +42,7 @@ const determineHostUrl = (req) => {
     return `${forwardedProto}://${forwardedHost}`;
   }
 
-  return "http://localhost:8080";
+  return "http://localhost:8088";
 };
 
 /* ################# API ENDPOINTS ###################### */
@@ -187,5 +187,5 @@ function findPayment(pspReference) {
 /* ################# end UTILS ###################### */
 
 // Start server
-const PORT = process.env.PORT || 8080;
+const PORT = process.env.PORT || 8088;
 app.listen(PORT, () => console.log(`Server started on port ${PORT}`));
